@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AutoGarage - Sign In / Register</title>
+  <link rel="stylesheet" href="style.css" />
+  
+</head>
+
+<body>
+  <!-- navbar.html -->
+  <nav class="navbar">
+    <div class="logo">Auto<span>Garage</span></div>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="shop.html">Shop</a></li>
+      <li><a href="about.html">About Us</a></li>
+      <li><a href="contact.html">Contact Us</a></li>
+    </ul>
+    <a href="cart.html" class="cart-btn">🛒 Cart</a>
+    <a href="auth.html" class="register-btn">Register/Sign In</a>
+  </nav>
+
+  <!-- Register Button -->
+  <button id="registerBtn" class="btn-primary">Register</button>
+
+  <!-- Authentication Section -->
+  <div class="auth-container">
+    <h2>Welcome to AutoGarage</h2>
+    <p>Sign in to your account or create a new one</p>
+
+    <div class="auth-box">
+      <div class="auth-tabs">
+        <button class="tab-btn active" onclick="showLogin()">Login</button>
+        <button class="tab-btn" onclick="showRegister()">Register</button>
+      </div>
+
+      <div id="login-form">
+        <label>Email Address</label>
+        <input type="email" placeholder="Enter your email">
+
+        <label>Password</label>
+        <input type="password" placeholder="Enter your password">
+
+        <div class="auth-options">
+          <label>
+            <input type="checkbox"> Remember me
+          </label>
+          <a href="#">Forgot password?</a>
+        </div>
+
+
+        <button class="btn-primary">Sign In <i class="fas fa-arrow-right"></i></button>
+      </div>
+
+      <div id="register-form" style="display: none;">
+        <label>Full Name</label>
+        <input type="text" placeholder="Enter your full name">
+
+        <label>Email Address</label>
+        <input type="email" placeholder="Enter your email">
+
+        <label>Password</label>
+        <input type="password" placeholder="Create a password">
+        <!-- <p>Password must be at least 8 characters long</p> -->
+
+        <button class="btn-primary">Sign Up</button>
+      </div>
+
+      <p>Or continue with social accounts</p>
+      <div class="social-buttons">
+        <button class="google-btn">Google</button>
+        <button class="facebook-btn">Facebook</button>
+      </div>
+    </div>
+  </div>
+  <!-- Footer Section -->
+  <footer>
+    <div class="footer-container">
+      <!-- About -->
+      <div class="footer-col about">
+        <h3 class="footer-brand">
+          <span class="brand-auto">Auto</span><span class="brand-garage">Garage</span>
+        </h3>
+        <p>Your premier destination for automotive excellence. Quality service, expert technicians, and top‑tier
+          products for your vehicle needs.</p>
+        <div class="footer-social">
+          <a href="https://facebook.com/YourPage" target="_blank" rel="noopener">
+            <img src="images/facebook-icon.png" alt="Facebook" />
+          </a>
+          <a href="https://twitter.com/YourHandle" target="_blank" rel="noopener">
+            <img src="images/twitter-icon.png" alt="Twitter" />
+          </a>
+          <a href="https://instagram.com/YourHandle" target="_blank" rel="noopener">
+            <img src="images/instagram-icon.png" alt="Instagram" />
+          </a>
+        </div>
+      </div>
+      <!-- Quick Links -->
+      <div class="footer-col">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="shop.html">Shop</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </div>
+      <!-- Support -->
+      <div class="footer-col">
+        <h4>Support</h4>
+        <ul>
+          <li><a href="faq.html">FAQ</a></li>
+          <li><a href="privacy.html">Privacy Policy</a></li>
+          <li><a href="terms.html">Terms & Conditions</a></li>
+          <li><a href="shipping.html">Shipping Policy</a></li>
+        </ul>
+      </div>
+      <!-- Contact Info -->
+      <div class="footer-col">
+        <h4>Contact Us</h4>
+        <address>
+          <a href="https://www.google.com/maps/search/?api=1&query=123+Garage+Street+Auto+City+AC+12345" target="_blank"
+            rel="noopener">
+            123 Garage Street,<br />Auto City, AC 12345
+          </a><br />
+          <a href="tel:+11234567890">(123) 456‑7890</a><br />
+          <a href="mailto:info@autogarage.com">info@autogarage.com</a>
+        </address>
+      </div>
+    </div>
+    <br>
+    <div>
+      <p>© 2025 AutoGarage. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="auth.js"></script>
+
+
+</body>
+
+</html>

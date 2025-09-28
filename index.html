@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AutoGarage</title>
+  <link rel="stylesheet" href="style.css" />
+  
+</head>
+
+<body>
+  <!-- navbar.html -->
+  <nav class="navbar">
+    <div class="logo">Auto<span>Garage</span></div>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="shop.html">Shop</a></li>
+      <li><a href="about.html">About Us</a></li>
+      <li><a href="contact.html">Contact Us</a></li>
+    </ul>
+    <a href="cart.html" class="cart-btn">🛒 Cart</a>
+    <a href="auth.html" class="register-btn">Register/Sign In</a>
+
+  </nav>
+
+
+  <!-- Hero Section -->
+  <header class="hero">
+    <div class="hero-content">
+      <h1>Excellence in Automotive Care</h1>
+      <p>
+        Premium services, quality parts, and exceptional expertise for your
+        vehicle.
+      </p>
+      <div class="hero-buttons">
+        <a href="shop.html" class="btn shop-btn">Shop Now</a>
+        <a href="about.html" class="btn learn-btn">Learn More</a>
+
+      </div>
+    </div>
+  </header>
+  <!-- Premium Services Section -->
+  <section class="services">
+    <h2>Our Premium Services</h2>
+    <p>
+      Discover our range of professional automotive services designed to keep
+      your vehicle in top condition.
+    </p>
+
+    <div class="services-container">
+      <div class="service-card">
+        <img src="images/your-image-path.png" alt="Service Icon" class="service-icon" />
+        <i class="fas fa-tools"></i>
+        <h3>Repair & Maintenance</h3>
+        <p>
+          Complete diagnostic and repair services for all makes and models.
+        </p>
+      </div>
+
+      <div class="service-card">
+        <img src="images/car image.png" alt="car Icon" class="car-icon" />
+        <i class="fas fa-tachometer-alt"></i>
+        <h3>Performance Upgrades</h3>
+        <p>
+          Custom performance enhancements to maximize your vehicle's
+          potential.
+        </p>
+      </div>
+
+      <div class="service-card">
+        <img src="images/reapir.png" alt="reapir Icon" class="reapir-icon" />
+        <i class="fas fa-cogs"></i>
+        <h3>Parts & Accessories</h3>
+        <p>High-quality OEM and aftermarket parts for any vehicle need.</p>
+      </div>
+
+      <div class="service-card">
+        <img src="images/warranty.png" alt="warranty Icon" class="warranty-icon" />
+        <i class="fas fa-shield-alt"></i>
+        <h3>Warranty Services</h3>
+        <p>Comprehensive warranty coverage and extended protection plans.</p>
+      </div>
+    </div>
+
+    <a href="about.html" class="btn learn-more">Learn More About Our Services →</a>
+  </section>
+  <section class="featured-products">
+    <div class="container">
+      <h2>Featured Products</h2>
+      <p>Top-quality automotive parts and accessories</p>
+
+      <div class="products">
+        <!-- Product 1 -->
+        <div class="product-card">
+          <img src="images/brake-pads.avif" alt="Premium Brake Discs" />
+          <div class="product-info">
+            <p class="category">Brake</p>
+            <h3>Premium Brake Discs</h3>
+            <p class="price">$129.99</p>
+
+            <button class="cart-btn add-to-cart" data-name="Premium Brake Discs" data-price="129.99"
+              data-image="./brake-pads.avif">
+              <i class="fa-solid fa-cart-shopping"></i> Add to Cart
+            </button>
+          </div>
+        </div>
+
+        <!-- Product 2 -->
+        <div class="product-card">
+          <img src="images/engine-oil.jpeg" alt="High‑Flow Fuel Filter	" />
+          <div class="product-info">
+            <p class="category">Oils & Fluids</p>
+            <h3>High‑Flow Fuel Filter	</h3>
+            <p class="price">$24.99</p>
+            <button class="cart-btn add-to-cart" data-name="High‑Flow Fuel Filter	" data-price="24.99"
+              data-image="./engine-oil.jpeg">
+              <i class="fa-solid fa-cart-shopping"></i> Add to Cart
+            </button>
+          </div>
+        </div>
+
+        <!-- Product 3 -->
+        <div class="product-card">
+          <img src="images/led-headlights.jpeg" alt="LED Headlights" />
+          <div class="product-info">
+            <p class="category">Lighting</p>
+            <h3>LED Headlights Kit</h3>
+            <p class="price">$139.99</p>
+            <button class="cart-btn add-to-cart" data-name="LED Headlights Kit" data-price="139.99"
+              data-image="./led-headlights.jpeg">
+              <i class="fa-solid fa-cart-shopping"></i> Add to Cart
+            </button>
+          </div>
+        </div>
+
+        <!-- Product 4 -->
+        <div class="product-card">
+          <img src="images/air-filter.jpeg" alt="Air Filter" />
+          <div class="product-info">
+            <p class="category">Engine</p>
+            <h3>Performance Air Filter</h3>
+            <p class="price">$59.99</p>
+            <button class="cart-btn add-to-cart" data-name="Performance Air Filter" data-price="59.99"
+              data-image="./air-filter.jpeg">
+              <i class="fa-solid fa-cart-shopping"></i> Add to Cart
+            </button>
+          </div>
+        </div>
+
+        <!-- Product 5 -->
+        <div class="product-card">
+          <img src="images/Roof‑Mounted Bike Rack.jpeg" alt="Roof‑Mounted Bike Rack" />
+          <div class="product-info">
+            <p class="category">Accessories</p>
+            <h3>Roof‑Mounted Bike Rack</h3>
+            <p class="price">$89.99</p>
+            <button class="cart-btn add-to-cart" data-name="Roof‑Mounted Bike Rack" data-price="89.99"
+              data-image="./images/Roof‑Mounted Bike Rack.jpeg">
+              <i class="fa-solid fa-cart-shopping"></i> Add to Cart
+            </button>
+          </div>
+        </div>
+  </section>
+
+  <!-- Customer Testimonials Section -->
+  <section class="testimonials">
+    <h2>What Our Customers Say</h2>
+    <p>We pride ourselves on exceptional service and customer satisfaction</p>
+
+    <div class="testimonial-box">
+      <div class="stars">★★★★★</div>
+      <blockquote>
+        "The team at AutoGarage transformed my car's performance. Their
+        expertise, attention to detail, and commitment to quality service
+        exceeded my expectations. I wouldn't trust my vehicle with anyone
+        else."
+      </blockquote>
+      <div class="customer-info">
+        <div class="customer-photo"></div>
+        <div class="customer-text">
+          <h3>Michael Thompson</h3>
+          <p>Satisfied Customer</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Call-to-Action Section -->
+  <section class="cta">
+    <h2>Ready to Experience Premium Automotive Care?</h2>
+    <p>
+      Join thousands of satisfied customers who trust us with their vehicles
+    </p>
+    <div class="cta-buttons">
+      <a href="shop.html" class="btn shop-btn">Shop Now</a>
+      <a href="contact.html" class="btn contact-btn">Contact Us</a>
+
+    </div>
+  </section>
+
+  <!-- Footer Section -->
+  <footer>
+    <div class="footer-container">
+      <!-- About -->
+      <div class="footer-col about">
+        <h3 class="footer-brand">
+          <span class="brand-auto">Auto</span><span class="brand-garage">Garage</span>
+        </h3>
+        <p>Your premier destination for automotive excellence. Quality service, expert technicians, and top‑tier
+          products for your vehicle needs.</p>
+        <div class="footer-social">
+          <a href="https://facebook.com/YourPage" target="_blank" rel="noopener">
+            <img src="images/facebook-icon.png" alt="Facebook" />
+          </a>
+          <a href="https://twitter.com/YourHandle" target="_blank" rel="noopener">
+            <img src="images/twitter-icon.png" alt="Twitter" />
+          </a>
+          <a href="https://instagram.com/YourHandle" target="_blank" rel="noopener">
+            <img src="images/instagram-icon.png" alt="Instagram" />
+          </a>
+        </div>
+      </div>
+      <!-- Quick Links -->
+      <div class="footer-col">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="shop.html">Shop</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </div>
+      <!-- Support -->
+      <div class="footer-col">
+        <h4>Support</h4>
+        <ul>
+          <li><a href="faq.html">FAQ</a></li>
+          <li><a href="privacy.html">Privacy Policy</a></li>
+          <li><a href="terms.html">Terms & Conditions</a></li>
+          <li><a href="shipping.html">Shipping Policy</a></li>
+        </ul>
+      </div>
+      <!-- Contact Info -->
+      <div class="footer-col">
+        <h4>Contact Us</h4>
+        <address>
+          <a href="https://www.google.com/maps/search/?api=1&query=123+Garage+Street+Auto+City+AC+12345" target="_blank"
+            rel="noopener">
+            123 Garage Street,<br />Auto City, AC 12345
+          </a><br />
+          <a href="tel:+11234567890">(123) 456‑7890</a><br />
+          <a href="mailto:info@autogarage.com">info@autogarage.com</a>
+        </address>
+      </div>
+    </div>
+    <div>
+      <p>© 2025 AutoGarage. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="navbar.js"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Your Cart – AutoGarage</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <header>
+    <!-- navbar.html -->
+    <nav class="navbar">
+      <div class="logo">Auto<span>Garage</span></div>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="shop.html">Shop</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+      </ul>
+      <a href="cart.html" class="cart-btn">🛒 Cart</a>
+      <a href="auth.html" class="register-btn">Register/Sign In</a>
+    </nav>
+  </header>
+
+  <main class="cart-wrapper">
+    <!-- 1. Cart Items Column -->
+    <section class="cart-items">
+      <h1>Shopping Cart</h1>
+      <!-- only this empty div -->
+      <div class="item-list"></div>
+    </section>
+
+    <!-- 2. Order Summary Column -->
+    <aside class="order-summary">
+      <h2>Order Summary</h2>
+      <div class="summary-line">
+        <span>Subtotal (0 items):</span>
+        <span class="summary-amount">$0.00</span>
+      </div>
+      <button class="btn checkout-btn">Proceed to Buy</button>
+      <p class="shipping-note">Shipping & taxes calculated at checkout.</p>
+    </aside>
+  </main>
+
+  <!-- 3. Recommended Section -->
+  <section class="recommendation">
+    <h2>Recommended for you</h2>
+    <div class="rec-grid">
+      <!-- Product 1 -->
+      <div class="rec-card">
+        <img src="images/brake-pads.avif" alt="Premium Brake Discsl" />
+        <h3>Premium Brake Discs</h3>
+        <p>$129.99</p>
+        <button class="btn add-cart-btn">Add to Cart</button>
+      </div>
+      <!-- Product 2 -->
+      <div class="rec-card">
+        <img src="images/engine-oil.jpeg" alt="High‑Flow Fuel Filter" />
+        <h3>High‑Flow Fuel Filter</h3>
+        <p>$24.99</p>
+        <button class="btn add-cart-btn">Add to Cart</button>
+      </div>
+      <!-- Product 3 -->
+      <div class="rec-card">
+        <img src="images/led-headlights.jpeg" alt="LED Headlights Kit" />
+        <h3>LED Headlights Kit</h3>
+        <p>$129.99</p>
+        <button class="btn add-cart-btn">Add to Cart</button>
+      </div>
+      <!-- Product 4 -->
+      <div class="rec-card">
+        <img src="images/air-filter.jpeg" alt="Performance Air Filter" />
+        <h3>Performance Air Filter</h3>
+        <p>$59.99</p>
+        <button class="btn add-cart-btn">Add to Cart</button>
+      </div>
+      <!-- Product 5 -->
+      <div class="rec-card">
+        <img src="./images/Roof‑Mounted Bike Rack.jpeg" alt="Roof‑Mounted Bike Rack" />
+        <h3>Roof‑Mounted Bike Rack</h3>
+        <p>$89.99</p>
+        <button class="btn add-cart-btn">Add to Cart</button>
+      </div>
+      <!-- Product 6 -->
+      <div class="rec-card">
+        <img src="./images/Platinum Spark Plugs (set of 4).jpeg" alt="Platinum Spark Plugs (set of 4)" />
+        <h3>Platinum Spark Plugs (set of 4)</h3>
+        <p>$39.99</p>
+        <button class="btn add-cart-btn">Add to Cart</button>
+      </div>
+      <!-- Product 7 -->
+      <div class="rec-card">
+        <img src="./images/High‑Flow Fuel Filter.jpeg" alt="High‑Flow Fuel Filter" />
+        <h3>High‑Flow Fuel Filter</h3>
+        <p>$29.99</p>
+        <button class="btn add-cart-btn">Add to Cart</button>
+      </div>
+      <!-- Product 8 -->
+      <div class="rec-card">
+        <img src="./images/Chrome Exhaust Tip.jpeg" alt="Chrome Exhaust Tip" />
+        <h3>Chrome Exhaust Tip</h3>
+        <p>$79.99</p>
+        <button class="btn add-cart-btn">Add to Cart</button>
+      </div>
+      <!-- Product 9 -->
+      <div class="rec-card">
+        <img src="./images/Adjustable Coilover Suspension.jpeg" alt="Adjustable Coilover Suspension" />
+        <h3>Roof‑Mounted Bike Rack</h3>
+        <p>$349.99</p>
+        <button class="btn add-cart-btn">Add to Cart</button>
+      </div>
+      <!-- Product 10 -->
+       <div class="rec-card">
+        <img src="./images/Alloy Wheels.jpeg" alt="Alloy Wheels 17inch Set of 4" />
+        <h3>Alloy Wheels 17" Set of 4</h3>
+        <p>$899.99</p>
+        <button class="btn add-cart-btn">Add to Cart</button>
+      </div>
+      <!-- Product 11 -->
+       <div class="rec-card">
+        <img src="./images/Carbon Fiber Rear Spoiler.jpeg" alt="Carbon Fiber Rear Spoiler" />
+        <h3>Carbon Fiber Rear Spoiler</h3>
+        <p>$199.99</p>
+        <button class="btn add-cart-btn">Add to Cart</button>
+      </div>
+      <!-- Product 12 --> 
+       <div class="rec-card">
+        <img src="./images/Leather Steering Wheel Cover.jpeg" alt="Leather Steering Wheel Cover" />
+        <h3>Leather Steering Wheel Cover</h3>
+        <p>$29.99</p>
+        <button class="btn add-cart-btn">Add to Cart</button>
+      </div> 
+    </div>
+  </section>
+
+  <!-- Footer Section -->
+  <footer>
+    <div class="footer-container">
+      <!-- About -->
+      <div class="footer-col about">
+        <h3 class="footer-brand">
+          <span class="brand-auto">Auto</span><span class="brand-garage">Garage</span>
+        </h3>
+        <p>Your premier destination for automotive excellence. Quality service, expert technicians, and top‑tier
+          products for your vehicle needs.</p>
+        <div class="footer-social">
+          <a href="https://facebook.com/YourPage" target="_blank" rel="noopener">
+            <img src="images/facebook-icon.png" alt="Facebook" />
+          </a>
+          <a href="https://twitter.com/YourHandle" target="_blank" rel="noopener">
+            <img src="images/twitter-icon.png" alt="Twitter" />
+          </a>
+          <a href="https://instagram.com/YourHandle" target="_blank" rel="noopener">
+            <img src="images/instagram-icon.png" alt="Instagram" />
+          </a>
+        </div>
+      </div>
+      <!-- Quick Links -->
+      <div class="footer-col">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="shop.html">Shop</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </div>
+      <!-- Support -->
+      <div class="footer-col">
+        <h4>Support</h4>
+        <ul>
+          <li><a href="faq.html">FAQ</a></li>
+          <li><a href="privacy.html">Privacy Policy</a></li>
+          <li><a href="terms.html">Terms & Conditions</a></li>
+          <li><a href="shipping.html">Shipping Policy</a></li>
+        </ul>
+      </div>
+      <!-- Contact Info -->
+      <div class="footer-col">
+        <h4>Contact Us</h4>
+        <address>
+          <a href="https://www.google.com/maps/search/?api=1&query=123+Garage+Street+Auto+City+AC+12345" target="_blank"
+            rel="noopener">
+            123 Garage Street,<br />Auto City, AC 12345
+          </a><br />
+          <a href="tel:+11234567890">(123) 456‑7890</a><br />
+          <a href="mailto:info@autogarage.com">info@autogarage.com</a>
+        </address>
+      </div>
+    </div>
+    <br>
+    <div>
+      <p>© 2025 AutoGarage. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>
